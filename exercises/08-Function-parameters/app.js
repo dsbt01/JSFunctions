@@ -1,5 +1,8 @@
 // Your code goes here:
-
+function renderPerson(custName, DOB, eyesColor, age, gender)
+{
+  return `${custName} is a ${age} years old ${gender} born in ${DOB} with ${eyesColor} eyes`;
+}
 
 
   ///*** Do not edit below this line ****/
